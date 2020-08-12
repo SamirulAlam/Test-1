@@ -1,3 +1,7 @@
+body{
+    padding: 0px;
+    margin: 0px;
+}
 /*!       SECTION Hero           */
 .section-hero{
     background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.8)),url(./img/hero-bg.jpg);
@@ -22,3 +26,18 @@
     color: white;
 }
 /*       !SECTION Hero           */
+
+
+/*       SECTION About         */
+
+.image-container__image-item{
+    background-image: url(./img/about-img.jpg);
+    height: 70vh;
+    width: 90vh;
+    background-position: center;
+
+}
+
+
+/*        !SECTION About         */
+
