@@ -30,12 +30,10 @@ body{
 
 /* !      SECTION About         */
 
-.image-container__image-item{
-    background-image: url(./img/about-img.jpg);
-    height: 70vh;
-    width: 90vh;
-    background-position: center;
-
+.about-image{
+    height: 500px;
+    width: 600px;
+    object-fit: cover;
 }
 
 
@@ -49,4 +47,25 @@ body{
 }
 /*        !SECTION Call             */
 
+/*!         SECTION Protfolio      */
+.protfolio-image{
+    height: 200px;
+    width: 250px;  
+    object-fit: cover; 
+}
 
+/*         !SECTION Protfolio      */
+
+/*!          SECTION Team           */
+.team-image{
+    height: 250px;
+    width: 250px;
+}
+
+.icon{
+    height: 20px;
+    width: 20px;
+    padding: 2px;
+}
+
+/*          !SECTION Team           */
