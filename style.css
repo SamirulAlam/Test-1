@@ -28,7 +28,7 @@ body{
 /*       !SECTION Hero           */
 
 
-/*       SECTION About         */
+/* !      SECTION About         */
 
 .image-container__image-item{
     background-image: url(./img/about-img.jpg);
@@ -40,4 +40,12 @@ body{
 
 
 /*        !SECTION About         */
+
+/*        SECTION Call             */
+.section-call{
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.8)),url(./img/call-to-action-bg.jpg);
+    height: 30vh;
+    background-attachment: fixed;
+}
+/*        SECTION Call             */
 
